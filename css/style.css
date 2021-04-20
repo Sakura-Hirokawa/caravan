@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
 header,
 nav,
 h2,
@@ -119,6 +123,10 @@ main {
   padding-bottom: 15px;
 }
 
+.blog-text-heading-ext {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
 .blog-date {
   font-size: 12px;
   display: inline-block;
@@ -205,13 +213,13 @@ footer {
   color: #fff;
 }
 
-#back{
+#back {
   position: fixed;
   right: 20px;
   bottom: 20px;
 }
 
-#back img{
+#back img {
   width: 50px;
 }
 
