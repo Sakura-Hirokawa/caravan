@@ -21,11 +21,19 @@ $(".main-visual-image").skippr({
   hidePrevious : false
 });
 
+// トップに戻る
 $(function(){
   $('#back a').on('click',function(event){
     $('body,html').animate({
       scrollTop:0
     },800);
     event.preventDefault();
+  });
+});
+
+// マウスオーバー
+$(function(){
+  $('.blog-text-heading').mouseover(function(){
+    $('.blog-text-heading').css({'background-color':'rgba(255,0,0,0.5)'});
   });
 });
